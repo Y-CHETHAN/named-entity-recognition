@@ -50,7 +50,7 @@ from sklearn.model_selection import train_test_split
 from keras import layers
 from keras.models import Model
 
-data=pd.read_csv("/content/drive/MyDrive/Colab Notebooks/ner_dataset.csv",encoding="latin1")
+data=pd.read_csv("ner_dataset.csv",encoding="latin1")
 data=data.fillna(method="ffill")
 data.head()
 
